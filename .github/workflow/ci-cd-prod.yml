@@ -24,4 +24,4 @@ jobs:
           context: .
           file: ./Dockerfile.prod
           push: true
-          tags: jaikumarmohite/ci-cd-docker:${{ github.sha }}
+          tags: jkmohite/docker-practice-1:${{ github.sha }}
